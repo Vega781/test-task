@@ -158,7 +158,7 @@ export const OrderForm = () => {
                         {emailError && <span className="form__error">{emailError}</span>}
                     </div>
                     <div className="form__buttons">
-                        <Link to="/" className="form__button">
+                        <Link to="/test-task" className="form__button">
                             Назад
                         </Link>
                         <button onClick={handleSubmit} type="submit" className="form__button">
