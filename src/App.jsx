@@ -11,7 +11,7 @@ const App = () => {
         <BrowserRouter>
             <Form>
                 <Routes>
-                    <Route path="/" element={<ChoiceForm />} />
+                    <Route path="/test-task" element={<ChoiceForm />} />
                     <Route path="/order/:id" element={<OrderForm />} />
                     <Route path="/payment" element={<Payment />} />
                 </Routes>
